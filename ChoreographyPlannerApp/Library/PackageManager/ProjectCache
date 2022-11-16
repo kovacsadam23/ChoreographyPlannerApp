@@ -1390,6 +1390,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.12
     - 5.0.0-pre.13
     - 5.0.2
+    - 5.0.3
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     compatible:
@@ -1403,6 +1404,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.12
     - 5.0.0-pre.13
     - 5.0.2
+    - 5.0.3
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     verified: 4.2.7
@@ -4112,6 +4114,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.12
     - 5.0.0-pre.13
     - 5.0.2
+    - 5.0.3
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     compatible:
@@ -4125,6 +4128,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.12
     - 5.0.0-pre.13
     - 5.0.2
+    - 5.0.3
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     verified: 4.2.7
@@ -4322,6 +4326,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.12
     - 5.0.0-pre.13
     - 5.0.2
+    - 5.0.3
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     compatible:
@@ -4335,6 +4340,7 @@ m_ResolvedPackages:
     - 5.0.0-pre.12
     - 5.0.0-pre.13
     - 5.0.2
+    - 5.0.3
     - 5.1.0-pre.1
     - 5.1.0-pre.2
     verified: 4.2.7

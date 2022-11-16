@@ -377,28 +377,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\lenovo\\Documents\\GitHub\\ChoreographyPlannerApp\\ChoreographyPlannerApp\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-th_values-th.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\ae4e63aee2448ed4859dc95da47269f5\\arcore_client\\res\\values-th\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,237,285,395,505",
-                        "endColumns": "46,47,109,109,85",
-                        "endOffsets": "236,284,394,504,590"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,106,158,272,386",
-                        "endColumns": "50,51,113,113,89",
-                        "endOffsets": "101,153,267,381,471"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\lenovo\\Documents\\GitHub\\ChoreographyPlannerApp\\ChoreographyPlannerApp\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-es-rUY_values-es-rUY.arsc.flat",
             "map": [
                 {
@@ -416,6 +394,28 @@
                         "startOffsets": "55,108,164,292,428",
                         "endColumns": "52,55,127,135,92",
                         "endOffsets": "103,159,287,423,516"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\lenovo\\Documents\\GitHub\\ChoreographyPlannerApp\\ChoreographyPlannerApp\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-th_values-th.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\ae4e63aee2448ed4859dc95da47269f5\\arcore_client\\res\\values-th\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,237,285,395,505",
+                        "endColumns": "46,47,109,109,85",
+                        "endOffsets": "236,284,394,504,590"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,106,158,272,386",
+                        "endColumns": "50,51,113,113,89",
+                        "endOffsets": "101,153,267,381,471"
                     }
                 }
             ]
@@ -443,28 +443,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\lenovo\\Documents\\GitHub\\ChoreographyPlannerApp\\ChoreographyPlannerApp\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-en-rCA_values-en-rCA.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\ae4e63aee2448ed4859dc95da47269f5\\arcore_client\\res\\values-en-rCA\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "194,241,292,414,536",
-                        "endColumns": "46,50,121,121,83",
-                        "endOffsets": "240,291,413,535,619"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,106,161,287,413",
-                        "endColumns": "50,54,125,125,87",
-                        "endOffsets": "101,156,282,408,496"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\lenovo\\Documents\\GitHub\\ChoreographyPlannerApp\\ChoreographyPlannerApp\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-pt-rBR_values-pt-rBR.arsc.flat",
             "map": [
                 {
@@ -482,6 +460,28 @@
                         "startOffsets": "55,108,164,286,416",
                         "endColumns": "52,55,121,129,90",
                         "endOffsets": "103,159,281,411,502"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\lenovo\\Documents\\GitHub\\ChoreographyPlannerApp\\ChoreographyPlannerApp\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\res\\merged\\release\\values-en-rCA_values-en-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\ae4e63aee2448ed4859dc95da47269f5\\arcore_client\\res\\values-en-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "194,241,292,414,536",
+                        "endColumns": "46,50,121,121,83",
+                        "endOffsets": "240,291,413,535,619"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,106,161,287,413",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "101,156,282,408,496"
                     }
                 }
             ]
@@ -771,42 +771,44 @@
                 {
                     "source": "C:\\Users\\lenovo\\Documents\\GitHub\\ChoreographyPlannerApp\\ChoreographyPlannerApp\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "5,2,7",
-                        "startColumns": "0,0,0",
-                        "startOffsets": "190,53,288",
-                        "endLines": "6,4,10",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "286,188,513"
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
                     },
                     "to": {
                         "startLines": "15,17,20",
                         "startColumns": "4,4,4",
-                        "startOffsets": "930,1030,1168",
+                        "startOffsets": "921,1021,1159",
                         "endLines": "16,19,23",
                         "endColumns": "8,8,8",
-                        "endOffsets": "1025,1163,1390"
+                        "endOffsets": "1016,1154,1381"
                     }
                 },
                 {
                     "source": "C:\\Users\\lenovo\\Documents\\GitHub\\ChoreographyPlannerApp\\ChoreographyPlannerApp\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "55,114",
-                        "endColumns": "57,65",
-                        "endOffsets": "110,177"
+                        "startLines": "2,-1",
+                        "startColumns": "2,-1",
+                        "startOffsets": "55,-1",
+                        "endColumns": "48,-1",
+                        "endOffsets": "101,-1"
                     },
                     "to": {
                         "startLines": "13,14",
                         "startColumns": "4,4",
-                        "startOffsets": "802,862",
-                        "endColumns": "59,67",
-                        "endOffsets": "857,925"
+                        "startOffsets": "802,853",
+                        "endColumns": "50,67",
+                        "endOffsets": "848,916"
                     }
                 },
                 {
                     "source": "C:\\Users\\lenovo\\Documents\\GitHub\\ChoreographyPlannerApp\\ChoreographyPlannerApp\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
                     "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
                         "startOffsets": "55,101,158,214,263,309",
@@ -817,11 +819,9 @@
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\ae4e63aee2448ed4859dc95da47269f5\\arcore_client\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "161,208,259,381,503",
-                        "endColumns": "46,50,121,121,83",
-                        "endOffsets": "207,258,380,502,586"
+                        "startLines": "-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "8,9,10,11,12",

@@ -1352,7 +1352,8 @@
         1344,
         1345,
         1346,
-        1347
+        1347,
+        1348
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -25964,6 +25965,20 @@
       "DebugActionIndex": 1214
     },
     {
+      "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
+      ],
+      "Outputs": [
+        "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
+      ],
+      "ToBuildDependencies": [
+        12
+      ],
+      "DebugActionIndex": 1215
+    },
+    {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -25975,7 +25990,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1215
+      "DebugActionIndex": 1216
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -25989,7 +26004,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1216
+      "DebugActionIndex": 1217
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -26003,7 +26018,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1217
+      "DebugActionIndex": 1218
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -26017,7 +26032,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1218
+      "DebugActionIndex": 1219
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -26031,7 +26046,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1219
+      "DebugActionIndex": 1220
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -26045,7 +26060,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1220
+      "DebugActionIndex": 1221
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.dll",
@@ -26059,7 +26074,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1221
+      "DebugActionIndex": 1222
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.pdb",
@@ -26073,7 +26088,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1222
+      "DebugActionIndex": 1223
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARCore.dll",
@@ -26087,7 +26102,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1223
+      "DebugActionIndex": 1224
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARCore.pdb",
@@ -26101,7 +26116,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1224
+      "DebugActionIndex": 1225
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARFoundation.dll",
@@ -26115,7 +26130,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1225
+      "DebugActionIndex": 1226
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARFoundation.pdb",
@@ -26129,7 +26144,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1226
+      "DebugActionIndex": 1227
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARSubsystems.dll",
@@ -26143,7 +26158,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1227
+      "DebugActionIndex": 1228
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARSubsystems.pdb",
@@ -26157,7 +26172,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1228
+      "DebugActionIndex": 1229
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.dll",
@@ -26171,7 +26186,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1229
+      "DebugActionIndex": 1230
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.pdb",
@@ -26185,7 +26200,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1230
+      "DebugActionIndex": 1231
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.dll",
@@ -26199,7 +26214,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1231
+      "DebugActionIndex": 1232
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
@@ -26213,7 +26228,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1232
+      "DebugActionIndex": 1233
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb",
@@ -26227,7 +26242,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1233
+      "DebugActionIndex": 1234
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll",
@@ -26241,7 +26256,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1234
+      "DebugActionIndex": 1235
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb",
@@ -26255,7 +26270,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1235
+      "DebugActionIndex": 1236
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
@@ -26269,7 +26284,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1236
+      "DebugActionIndex": 1237
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb",
@@ -26283,7 +26298,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1237
+      "DebugActionIndex": 1238
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
@@ -26297,7 +26312,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1238
+      "DebugActionIndex": 1239
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb",
@@ -26311,7 +26326,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1239
+      "DebugActionIndex": 1240
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.pdb",
@@ -26325,7 +26340,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1240
+      "DebugActionIndex": 1241
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -26339,7 +26354,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1241
+      "DebugActionIndex": 1242
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -26353,7 +26368,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1242
+      "DebugActionIndex": 1243
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -26367,7 +26382,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1243
+      "DebugActionIndex": 1244
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -26381,7 +26396,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1244
+      "DebugActionIndex": 1245
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -26395,7 +26410,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1245
+      "DebugActionIndex": 1246
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -26409,7 +26424,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1246
+      "DebugActionIndex": 1247
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -26423,7 +26438,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1247
+      "DebugActionIndex": 1248
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll",
@@ -26437,7 +26452,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1248
+      "DebugActionIndex": 1249
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb",
@@ -26451,7 +26466,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1249
+      "DebugActionIndex": 1250
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll",
@@ -26465,7 +26480,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1250
+      "DebugActionIndex": 1251
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb",
@@ -26479,7 +26494,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1251
+      "DebugActionIndex": 1252
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -26493,7 +26508,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1252
+      "DebugActionIndex": 1253
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -26507,7 +26522,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1253
+      "DebugActionIndex": 1254
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.dll",
@@ -26521,7 +26536,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1254
+      "DebugActionIndex": 1255
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.pdb",
@@ -26535,7 +26550,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1255
+      "DebugActionIndex": 1256
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -26549,7 +26564,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1256
+      "DebugActionIndex": 1257
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -26563,7 +26578,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1257
+      "DebugActionIndex": 1258
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -26577,7 +26592,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1258
+      "DebugActionIndex": 1259
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.pdb",
@@ -26591,7 +26606,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1259
+      "DebugActionIndex": 1260
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -26605,7 +26620,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1260
+      "DebugActionIndex": 1261
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -26619,7 +26634,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1261
+      "DebugActionIndex": 1262
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -26633,7 +26648,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1262
+      "DebugActionIndex": 1263
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll",
@@ -26647,7 +26662,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1263
+      "DebugActionIndex": 1264
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb",
@@ -26661,7 +26676,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1264
+      "DebugActionIndex": 1265
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -26675,7 +26690,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1265
+      "DebugActionIndex": 1266
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -26689,7 +26704,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1266
+      "DebugActionIndex": 1267
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.dll",
@@ -26703,7 +26718,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1267
+      "DebugActionIndex": 1268
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.pdb",
@@ -26717,7 +26732,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1268
+      "DebugActionIndex": 1269
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -26731,7 +26746,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1269
+      "DebugActionIndex": 1270
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -26745,7 +26760,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1270
+      "DebugActionIndex": 1271
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll",
@@ -26759,7 +26774,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1271
+      "DebugActionIndex": 1272
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -26773,7 +26788,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1272
+      "DebugActionIndex": 1273
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -26787,7 +26802,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1273
+      "DebugActionIndex": 1274
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -26801,7 +26816,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1274
+      "DebugActionIndex": 1275
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -26815,7 +26830,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1275
+      "DebugActionIndex": 1276
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -26829,7 +26844,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1276
+      "DebugActionIndex": 1277
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll",
@@ -26843,7 +26858,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1277
+      "DebugActionIndex": 1278
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -26857,7 +26872,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1278
+      "DebugActionIndex": 1279
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll",
@@ -26871,7 +26886,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1279
+      "DebugActionIndex": 1280
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb",
@@ -26885,7 +26900,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1280
+      "DebugActionIndex": 1281
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll",
@@ -26899,7 +26914,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1281
+      "DebugActionIndex": 1282
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb",
@@ -26913,7 +26928,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1282
+      "DebugActionIndex": 1283
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll",
@@ -26927,7 +26942,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1283
+      "DebugActionIndex": 1284
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb",
@@ -26941,7 +26956,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1284
+      "DebugActionIndex": 1285
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -26955,7 +26970,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1285
+      "DebugActionIndex": 1286
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsNativeModule.pdb",
@@ -26969,7 +26984,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1286
+      "DebugActionIndex": 1287
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll",
@@ -26983,7 +26998,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1287
+      "DebugActionIndex": 1288
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb",
@@ -26997,7 +27012,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1288
+      "DebugActionIndex": 1289
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -27011,7 +27026,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1289
+      "DebugActionIndex": 1290
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.pdb",
@@ -27025,7 +27040,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1290
+      "DebugActionIndex": 1291
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -27039,7 +27054,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1291
+      "DebugActionIndex": 1292
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -27053,7 +27068,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1292
+      "DebugActionIndex": 1293
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.dll",
@@ -27067,7 +27082,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1293
+      "DebugActionIndex": 1294
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.pdb",
@@ -27081,7 +27096,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1294
+      "DebugActionIndex": 1295
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.dll",
@@ -27095,7 +27110,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1295
+      "DebugActionIndex": 1296
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.pdb",
@@ -27109,7 +27124,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1296
+      "DebugActionIndex": 1297
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -27123,7 +27138,7 @@
       "ToBuildDependencies": [
         12
       ],
-      "DebugActionIndex": 1297
+      "DebugActionIndex": 1298
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -27134,18 +27149,18 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 1298
+      "DebugActionIndex": 1299
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_2grq.info",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles+Arguments\":{\"ProjectPath\":\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle\",\"Architectures\":\"ARMv7, ARM64\",\"BuildSystem\":\"Gradle\",\"GradleProjectCreateInfo\":{\"HostPlatform\":\"Windows\",\"ApplicationType\":\"APK\",\"BuildType\":\"Release\",\"AndroidSDKPath\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.12f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\",\"AndroidNDKPath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\",\"PreferredHeapSizeForJVM\":4096,\"GradleVersion\":\"6.1.1\",\"UnityLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\mainTemplate.gradle\",\"LauncherTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\launcherTemplate.gradle\",\"BaseProjectTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\baseProjectTemplate.gradle\",\"GradlePropertiesTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\gradleTemplate.properties\",\"GradleLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\libTemplate.gradle\",\"ProguardUserPath\":\"\",\"SettingsTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\settingsTemplate.gradle\",\"BuildTools\":\"30.0.2\",\"TargetSDKVersion\":30,\"MinSDKVersion\":24,\"PackageName\":\"com.AdamKovacs.ChoreographyPlannerApp\",\"Architectures\":\"ARMv7, ARM64\",\"BuildApkPerCpuArchitecture\":false,\"VersionCode\":1,\"VersionName\":\"1.0\",\"Minify\":0,\"NoCompressOptions\":{\"RelativeFilePaths\":[],\"FileExtensions\":[\".json\"]},\"UseCustomKeystore\":false,\"KeystorePath\":\"\",\"KeystoreName\":\"\",\"KeystorePassword\":\"\",\"KeystoreAliasName\":\"\",\"KeystoreAliasPassword\":\"\",\"ScriptingImplementation\":\"IL2CPP\",\"AndroidLibraries\":[],\"AARFiles\":[\"Library/PackageCache/com.unity.xr.arcore@4.2.7/Runtime/Android/arcore_client.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.7/Runtime/Android/UnityARCore.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.7/Runtime/Android/ARPresto.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.7/Runtime/Android/unityandroidpermissions.aar\"],\"BuiltinJavaSourcePaths\":[\"com/unity3d/player/UnityPlayerActivity.java\"],\"JavaSourcePaths\":[],\"KotlinSourcePaths\":[],\"PlayerPackage\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer\",\"PlayerPackageTools\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\",\"SymlinkSources\":false,\"InstallIntoBuildsFolder\":false,\"UnityPath\":\"\",\"UnityProjectPath\":\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp\",\"Dependencies\":[]}},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.12f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build.gradle\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build.gradle\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle.properties\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/local.properties\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/settings.gradle\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties\"],\"inputs\":[\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/mainTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/launcherTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/baseProjectTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/gradleTemplate.properties\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/libTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/settingsTemplate.gradle\"],\"targetDirectories\":[]}}",
+      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles+Arguments\":{\"ProjectPath\":\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle\",\"Architectures\":\"ARMv7, ARM64\",\"BuildSystem\":\"Gradle\",\"GradleProjectCreateInfo\":{\"HostPlatform\":\"Windows\",\"ApplicationType\":\"APK\",\"BuildType\":\"Release\",\"AndroidSDKPath\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.12f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\",\"AndroidNDKPath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\",\"PreferredHeapSizeForJVM\":4096,\"GradleVersion\":\"6.1.1\",\"UnityLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\mainTemplate.gradle\",\"LauncherTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\launcherTemplate.gradle\",\"BaseProjectTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\baseProjectTemplate.gradle\",\"GradlePropertiesTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\gradleTemplate.properties\",\"GradleLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\libTemplate.gradle\",\"ProguardUserPath\":\"\",\"SettingsTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\settingsTemplate.gradle\",\"BuildTools\":\"30.0.2\",\"TargetSDKVersion\":30,\"MinSDKVersion\":24,\"PackageName\":\"com.AdamKovacs.ChoreoPlanner\",\"Architectures\":\"ARMv7, ARM64\",\"BuildApkPerCpuArchitecture\":false,\"VersionCode\":1,\"VersionName\":\"1.0\",\"Minify\":0,\"NoCompressOptions\":{\"RelativeFilePaths\":[],\"FileExtensions\":[\".json\"]},\"UseCustomKeystore\":false,\"KeystorePath\":\"\",\"KeystoreName\":\"\",\"KeystorePassword\":\"\",\"KeystoreAliasName\":\"\",\"KeystoreAliasPassword\":\"\",\"ScriptingImplementation\":\"IL2CPP\",\"AndroidLibraries\":[],\"AARFiles\":[\"Library/PackageCache/com.unity.xr.arcore@4.2.7/Runtime/Android/arcore_client.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.7/Runtime/Android/UnityARCore.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.7/Runtime/Android/ARPresto.aar\",\"Library/PackageCache/com.unity.xr.arcore@4.2.7/Runtime/Android/unityandroidpermissions.aar\"],\"BuiltinJavaSourcePaths\":[\"com/unity3d/player/UnityPlayerActivity.java\"],\"JavaSourcePaths\":[],\"KotlinSourcePaths\":[],\"PlayerPackage\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer\",\"PlayerPackageTools\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\",\"SymlinkSources\":false,\"InstallIntoBuildsFolder\":false,\"UnityPath\":\"\",\"UnityProjectPath\":\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp\",\"Dependencies\":[]}},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.12f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build.gradle\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build.gradle\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle.properties\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/local.properties\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/settings.gradle\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties\"],\"inputs\":[\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/mainTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/launcherTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/baseProjectTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/gradleTemplate.properties\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/libTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/settingsTemplate.gradle\"],\"targetDirectories\":[]}}",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.gradle_2grq.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1299
+      "DebugActionIndex": 1300
     },
     {
       "Annotation": "ActionGenerateProjectFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+6 others)",
@@ -27176,11 +27191,11 @@
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties"
       ],
       "ToBuildDependencies": [
-        1299
+        1300
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1300
+      "DebugActionIndex": 1301
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt",
@@ -27191,7 +27206,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt"
       ],
-      "DebugActionIndex": 1301
+      "DebugActionIndex": 1302
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -27202,7 +27217,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 1302
+      "DebugActionIndex": 1303
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -27213,7 +27228,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 1303
+      "DebugActionIndex": 1304
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml",
@@ -27224,7 +27239,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 1304
+      "DebugActionIndex": 1305
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml",
@@ -27235,7 +27250,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1305
+      "DebugActionIndex": 1306
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml",
@@ -27246,7 +27261,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1306
+      "DebugActionIndex": 1307
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml",
@@ -27257,7 +27272,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1307
+      "DebugActionIndex": 1308
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -27268,7 +27283,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1308
+      "DebugActionIndex": 1309
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -27279,7 +27294,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1309
+      "DebugActionIndex": 1310
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -27290,18 +27305,18 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1310
+      "DebugActionIndex": 1311
     },
     {
       "Annotation": "WriteText C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n  <string name=\"app_name\">ChoreographyPlannerApp</string>\r\n  <string name=\"game_view_content_description\">Game view</string>\r\n</resources>",
+      "WriteTextFilePayload": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n  <string name=\"app_name\">ChoreoPlanner</string>\r\n  <string name=\"game_view_content_description\">Game view</string>\r\n</resources>",
       "Inputs": [],
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1311
+      "DebugActionIndex": 1312
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -27312,7 +27327,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1312
+      "DebugActionIndex": 1313
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -27323,7 +27338,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1313
+      "DebugActionIndex": 1314
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -27334,7 +27349,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
       ],
-      "DebugActionIndex": 1314
+      "DebugActionIndex": 1315
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -27345,7 +27360,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
       ],
-      "DebugActionIndex": 1315
+      "DebugActionIndex": 1316
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -27356,7 +27371,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1316
+      "DebugActionIndex": 1317
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -27367,7 +27382,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1317
+      "DebugActionIndex": 1318
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
@@ -27378,7 +27393,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
-      "DebugActionIndex": 1318
+      "DebugActionIndex": 1319
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -27389,7 +27404,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 1319
+      "DebugActionIndex": 1320
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -27400,18 +27415,18 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1320
+      "DebugActionIndex": 1321
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.GenerateManifests+Arguments\":{\"Configuration\":{\"PackageName\":\"com.AdamKovacs.ChoreographyPlannerApp\",\"TargetSDKVersion\":30,\"LauncherManifestTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer\\\\Apk\\\\LauncherManifest.xml\",\"LibraryManifestTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer\\\\Apk\\\\UnityManifest.xml\",\"LauncherManifestPath\":\"launcher\\\\src\\\\main\\\\AndroidManifest.xml\",\"LibraryManifestPath\":\"unityLibrary\\\\src\\\\main\\\\AndroidManifest.xml\",\"TVCompatibility\":false,\"BannerEnabled\":true,\"IsGame\":true,\"PreferredInstallLocation\":\"PreferExternal\",\"TextureSupport\":\"Generic\",\"GamepadSupportLevel\":\"SupportsDPad\",\"TargetDevices\":\"AllDevices\",\"SupportedAspectRatioMode\":1,\"MaxAspectRatio\":2.1,\"ForceInternetPermission\":false,\"UseLowAccuracyLocation\":false,\"ForceSDCardPermission\":false,\"PreserveFramebufferAlpha\":false,\"DefaultInterfaceOrientation\":\"AutoRotation\",\"AllowedAutorotateToPortrait\":true,\"AllowedAutorotateToPortraitUpsideDown\":true,\"AllowedAutorotateToLandscapeLeft\":true,\"AllowedAutorotateToLandscapeRight\":true,\"ARCoreEnabled\":false,\"SplashScreenScale\":\"Center\",\"VREnabled\":false,\"RenderOutsideSafeArea\":true,\"GraphicsDevices\":[\"OpenGLES3\"],\"OpenGLRequireES31\":false,\"OpenGLRequireES31AEP\":false,\"OpenGLRequireES32\":false,\"StartInFullscreen\":false,\"ChromeOSInputEmulation\":true,\"DefaultWindowWidth\":1920,\"DefaultWindowHeight\":1080,\"MinimumWindowWidth\":400,\"MinimumWindowHeight\":300,\"ResizableWindow\":false,\"FullScreenMode\":\"FullScreenWindow\"},\"Services\":{\"EnableUnityConnect\":false,\"EnablePerformanceReporting\":false,\"EnableAnalytics\":false,\"EnableCrashReporting\":false},\"ProjectPath\":\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle\",\"FeatureChecklist\":[\"Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/com.ben-w.erp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.InputSystem-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARCore-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARFoundation-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARSubsystems-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.Management-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.ConformanceAutomation-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.MockRuntime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.OculusQuestSupport-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.RuntimeDebugger-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpatialTracking-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.VRModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.XRModule-FeaturesChecked.txt\"],\"Development\":false,\"UsingObb\":false,\"GradleResourcesInformation\":{\"TargetSDKVersion\":30,\"RoundIconsAvailable\":false,\"RoundIconsSupported\":true,\"AdaptiveIconsSupported\":true,\"AdaptiveIconsAvailable\":false},\"LauncherManifestDiagnosticsPath\":\"Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt\",\"LibraryManifestDiagnosticsPath\":\"Library/Bee/artifacts/Android/Manifest/LibraryManifestDiag.txt\"},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.GenerateManifests\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.12f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt\",\"Library/Bee/artifacts/Android/Manifest/LibraryManifestDiag.txt\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml\"],\"inputs\":[\"Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/com.ben-w.erp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.InputSystem-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARCore-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARFoundation-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARSubsystems-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.Management-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.ConformanceAutomation-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.MockRuntime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.OculusQuestSupport-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.RuntimeDebugger-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpatialTracking-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.VRModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.XRModule-FeaturesChecked.txt\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/LauncherManifest.xml\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/UnityManifest.xml\"],\"targetDirectories\":[]}}",
+      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.GenerateManifests+Arguments\":{\"Configuration\":{\"PackageName\":\"com.AdamKovacs.ChoreoPlanner\",\"TargetSDKVersion\":30,\"LauncherManifestTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer\\\\Apk\\\\LauncherManifest.xml\",\"LibraryManifestTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer\\\\Apk\\\\UnityManifest.xml\",\"LauncherManifestPath\":\"launcher\\\\src\\\\main\\\\AndroidManifest.xml\",\"LibraryManifestPath\":\"unityLibrary\\\\src\\\\main\\\\AndroidManifest.xml\",\"TVCompatibility\":false,\"BannerEnabled\":true,\"IsGame\":true,\"PreferredInstallLocation\":\"PreferExternal\",\"TextureSupport\":\"Generic\",\"GamepadSupportLevel\":\"SupportsDPad\",\"TargetDevices\":\"AllDevices\",\"SupportedAspectRatioMode\":1,\"MaxAspectRatio\":2.1,\"ForceInternetPermission\":false,\"UseLowAccuracyLocation\":false,\"ForceSDCardPermission\":false,\"PreserveFramebufferAlpha\":false,\"DefaultInterfaceOrientation\":\"AutoRotation\",\"AllowedAutorotateToPortrait\":true,\"AllowedAutorotateToPortraitUpsideDown\":true,\"AllowedAutorotateToLandscapeLeft\":true,\"AllowedAutorotateToLandscapeRight\":true,\"ARCoreEnabled\":false,\"SplashScreenScale\":\"Center\",\"VREnabled\":false,\"RenderOutsideSafeArea\":true,\"GraphicsDevices\":[\"OpenGLES3\"],\"OpenGLRequireES31\":false,\"OpenGLRequireES31AEP\":false,\"OpenGLRequireES32\":false,\"StartInFullscreen\":false,\"ChromeOSInputEmulation\":true,\"DefaultWindowWidth\":1920,\"DefaultWindowHeight\":1080,\"MinimumWindowWidth\":400,\"MinimumWindowHeight\":300,\"ResizableWindow\":false,\"FullScreenMode\":\"FullScreenWindow\"},\"Services\":{\"EnableUnityConnect\":false,\"EnablePerformanceReporting\":false,\"EnableAnalytics\":false,\"EnableCrashReporting\":false},\"ProjectPath\":\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle\",\"FeatureChecklist\":[\"Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/com.ben-w.erp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.InputSystem-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARCore-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARFoundation-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARSubsystems-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.Management-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.ConformanceAutomation-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.MockRuntime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.OculusQuestSupport-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.RuntimeDebugger-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpatialTracking-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.VRModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.XRModule-FeaturesChecked.txt\"],\"Development\":false,\"UsingObb\":false,\"GradleResourcesInformation\":{\"TargetSDKVersion\":30,\"RoundIconsAvailable\":false,\"RoundIconsSupported\":true,\"AdaptiveIconsSupported\":true,\"AdaptiveIconsAvailable\":false},\"LauncherManifestDiagnosticsPath\":\"Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt\",\"LibraryManifestDiagnosticsPath\":\"Library/Bee/artifacts/Android/Manifest/LibraryManifestDiag.txt\"},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.GenerateManifests\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.12f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt\",\"Library/Bee/artifacts/Android/Manifest/LibraryManifestDiag.txt\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml\",\"C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml\"],\"inputs\":[\"Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/com.ben-w.erp-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.InputSystem-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARCore-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARFoundation-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.ARSubsystems-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.Management-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.ConformanceAutomation-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.MockRuntime-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.OculusQuestSupport-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.RuntimeDebugger-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.InputModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpatialTracking-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.VRModule-FeaturesChecked.txt\",\"Library/Bee/artifacts/Android/Features/UnityEngine.XRModule-FeaturesChecked.txt\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/LauncherManifest.xml\",\"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/UnityManifest.xml\"],\"targetDirectories\":[]}}",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1321
+      "DebugActionIndex": 1322
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -27527,11 +27542,11 @@
         101,
         103,
         105,
-        1321
+        1322
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1322
+      "DebugActionIndex": 1323
     },
     {
       "Annotation": "ClassRegistrationGenerator C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -27549,7 +27564,7 @@
         12
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1323
+      "DebugActionIndex": 1324
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o",
@@ -27563,10 +27578,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1323
+        1324
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1324
+      "DebugActionIndex": 1325
     },
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -27606,7 +27621,7 @@
         12
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1325
+      "DebugActionIndex": 1326
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o",
@@ -27620,10 +27635,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1325
+        1326
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1326
+      "DebugActionIndex": 1327
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so",
@@ -27640,11 +27655,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1324,
-        1326
+        1325,
+        1327
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1327
+      "DebugActionIndex": 1328
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so",
@@ -27657,10 +27672,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1327
+        1328
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1328
+      "DebugActionIndex": 1329
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so",
@@ -27673,10 +27688,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1328
+        1329
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1329
+      "DebugActionIndex": 1330
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so",
@@ -27689,10 +27704,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1327
+        1328
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1330
+      "DebugActionIndex": 1331
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so -> C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -27707,11 +27722,11 @@
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1329,
-        1330
+        1330,
+        1331
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1331
+      "DebugActionIndex": 1332
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -27725,10 +27740,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1323
+        1324
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1332
+      "DebugActionIndex": 1333
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -27742,10 +27757,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1325
+        1326
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1333
+      "DebugActionIndex": 1334
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -27762,11 +27777,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1332,
-        1333
+        1333,
+        1334
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1334
+      "DebugActionIndex": 1335
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -27779,10 +27794,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1334
+        1335
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1335
+      "DebugActionIndex": 1336
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -27795,10 +27810,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1335
+        1336
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1336
+      "DebugActionIndex": 1337
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -27811,10 +27826,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1334
+        1335
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1337
+      "DebugActionIndex": 1338
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -27829,11 +27844,11 @@
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1336,
-        1337
+        1337,
+        1338
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1338
+      "DebugActionIndex": 1339
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -27844,7 +27859,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 1339
+      "DebugActionIndex": 1340
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libil2cpp.so",
@@ -27858,7 +27873,7 @@
       "ToBuildDependencies": [
         537
       ],
-      "DebugActionIndex": 1340
+      "DebugActionIndex": 1341
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -27870,9 +27885,9 @@
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1329
+        1330
       ],
-      "DebugActionIndex": 1341
+      "DebugActionIndex": 1342
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -27883,7 +27898,7 @@
       "Outputs": [
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1342
+      "DebugActionIndex": 1343
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -27897,7 +27912,7 @@
       "ToBuildDependencies": [
         969
       ],
-      "DebugActionIndex": 1343
+      "DebugActionIndex": 1344
     },
     {
       "Annotation": "CopyFiles C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -27909,9 +27924,9 @@
         "C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1336
+        1337
       ],
-      "DebugActionIndex": 1344
+      "DebugActionIndex": 1345
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_33ct.info",
@@ -27922,7 +27937,7 @@
         "Library/Bee/artifacts/csharpactions/unity_app_guid_33ct.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1345
+      "DebugActionIndex": 1346
     },
     {
       "Annotation": "GuidGenerator C:/Users/lenovo/Documents/GitHub/ChoreographyPlannerApp/ChoreographyPlannerApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -27952,11 +27967,11 @@
       ],
       "ToBuildDependencies": [
         106,
-        1345
+        1346
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1346
+      "DebugActionIndex": 1347
     },
     {
       "Annotation": "Player",
@@ -28344,7 +28359,7 @@
         1296,
         1297,
         1298,
-        1300,
+        1299,
         1301,
         1302,
         1303,
@@ -28365,13 +28380,14 @@
         1318,
         1319,
         1320,
-        1322,
-        1331,
-        1338,
-        1346
+        1321,
+        1323,
+        1332,
+        1339,
+        1347
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1347
+      "DebugActionIndex": 1348
     }
   ],
   "FileSignatures": [
@@ -28921,7 +28937,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 1347
+          "Player": 1348
         }
 ,  "DefaultNodes": [
     0

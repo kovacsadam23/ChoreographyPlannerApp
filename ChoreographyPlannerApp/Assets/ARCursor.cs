@@ -7,17 +7,23 @@ public class ARCursor : MonoBehaviour
 {
     public GameObject cursorChildObject;
     public GameObject objectToPlace;
+    private GameObject placed;
+
+    private Animator anim;
+
     public ARRaycastManager raycastManager;
 
     public bool useCursor = true;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         cursorChildObject.SetActive(useCursor);
+        anim = objectToPlace.GetComponent<Animator>();
+        // anim.Play("mixamo.com");
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (useCursor)
@@ -29,7 +35,10 @@ public class ARCursor : MonoBehaviour
         {
             if (useCursor)
             {
-                GameObject.Instantiate(objectToPlace, transform.position, transform.rotation);
+                GameObject.Instantiate(objectToPlace, transform.position, transform.rotation).GetComponent<Animation>().Play("mixamo.com");
+                // anim.Play("mixamo.com");
+                //objectToPlace.GetComponent<Animation>().Play("mixamo.com");
+                // placed.GetComponent<Animator>().Play("mixamo.com");
             }
 
             else
@@ -39,7 +48,10 @@ public class ARCursor : MonoBehaviour
 
                 if (hits.Count > 0)
                 {
-                    GameObject.Instantiate(objectToPlace, hits[0].pose.position, hits[0].pose.rotation);
+                    GameObject.Instantiate(objectToPlace, hits[0].pose.position, hits[0].pose.rotation).GetComponent<Animation>().Play("mixamo.com");
+                    // anim.Play("mixamo.com");
+                    objectToPlace.GetComponent<Animation>().Play("mixamo.com");
+
                 }
             }
         }

@@ -16,7 +16,7 @@ android {
     defaultConfig {
         minSdkVersion 24
         targetSdkVersion 30
-        applicationId 'com.AdamKovacs.ChoreographyPlannerApp'
+        applicationId 'com.AdamKovacs.ChoreoPlanner'
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }

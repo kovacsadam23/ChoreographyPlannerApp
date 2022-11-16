@@ -1,4 +1,4 @@
-com.AdamKovacs.ChoreographyPlannerApp
+com.AdamKovacs.ChoreoPlanner
 id __arcore_cancelButton
 id __arcore_continueButton
 id __arcore_messageText
