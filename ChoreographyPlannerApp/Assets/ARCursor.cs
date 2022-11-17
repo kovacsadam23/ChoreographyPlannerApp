@@ -35,7 +35,7 @@ public class ARCursor : MonoBehaviour
         {
             if (useCursor)
             {
-                GameObject.Instantiate(objectToPlace, transform.position, transform.rotation).GetComponent<Animation>().Play("mixamo.com");
+                GameObject.Instantiate(objectToPlace, transform.position, transform.rotation);
                 // anim.Play("mixamo.com");
                 //objectToPlace.GetComponent<Animation>().Play("mixamo.com");
                 // placed.GetComponent<Animator>().Play("mixamo.com");
@@ -48,9 +48,9 @@ public class ARCursor : MonoBehaviour
 
                 if (hits.Count > 0)
                 {
-                    GameObject.Instantiate(objectToPlace, hits[0].pose.position, hits[0].pose.rotation).GetComponent<Animation>().Play("mixamo.com");
+                    GameObject.Instantiate(objectToPlace, hits[0].pose.position, hits[0].pose.rotation);
                     // anim.Play("mixamo.com");
-                    objectToPlace.GetComponent<Animation>().Play("mixamo.com");
+                    // objectToPlace.GetComponent<Animation>().Play("mixamo.com");
 
                 }
             }
