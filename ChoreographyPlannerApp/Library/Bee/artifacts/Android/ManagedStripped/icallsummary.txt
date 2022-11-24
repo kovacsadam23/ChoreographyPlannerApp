@@ -181,8 +181,13 @@ UnityEngine.AnimationCurve::Internal_Create
 UnityEngine.AnimationCurve::Internal_Destroy
 UnityEngine.Animations.AnimationLayerMixerPlayable::SetSingleLayerOptimizationInternal
 UnityEngine.Animator::get_hasBoundPlayables
+UnityEngine.Animator::Rebind
 UnityEngine.Animator::ResetTriggerString
 UnityEngine.Animator::SetTriggerString
+UnityEngine.Animator::StartPlayback
+UnityEngine.Animator::StopPlayback
+UnityEngine.Animator::Update
+UnityEngine.Animator::set_speed
 UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying

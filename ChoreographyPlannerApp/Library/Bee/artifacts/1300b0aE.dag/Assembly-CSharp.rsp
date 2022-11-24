@@ -392,6 +392,7 @@
 "Assets/ARCursor.cs"
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
 "Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
+"Assets/onStartStopClick.cs"
 -langversion:9.0
 
 /deterministic

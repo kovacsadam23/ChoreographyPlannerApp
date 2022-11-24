@@ -774,6 +774,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_get_hasBoundPlayables();
 		Register_UnityEngine_Animator_get_hasBoundPlayables();
 
+		//System.Void UnityEngine.Animator::Rebind(System.Boolean)
+		void Register_UnityEngine_Animator_Rebind();
+		Register_UnityEngine_Animator_Rebind();
+
 		//System.Void UnityEngine.Animator::ResetTriggerString(System.String)
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
@@ -781,6 +785,22 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Animator::SetTriggerString(System.String)
 		void Register_UnityEngine_Animator_SetTriggerString();
 		Register_UnityEngine_Animator_SetTriggerString();
+
+		//System.Void UnityEngine.Animator::StartPlayback()
+		void Register_UnityEngine_Animator_StartPlayback();
+		Register_UnityEngine_Animator_StartPlayback();
+
+		//System.Void UnityEngine.Animator::StopPlayback()
+		void Register_UnityEngine_Animator_StopPlayback();
+		Register_UnityEngine_Animator_StopPlayback();
+
+		//System.Void UnityEngine.Animator::Update(System.Single)
+		void Register_UnityEngine_Animator_Update();
+		Register_UnityEngine_Animator_Update();
+
+		//System.Void UnityEngine.Animator::set_speed(System.Single)
+		void Register_UnityEngine_Animator_set_speed();
+		Register_UnityEngine_Animator_set_speed();
 
 	//End Registrations for type : UnityEngine.Animator
 
