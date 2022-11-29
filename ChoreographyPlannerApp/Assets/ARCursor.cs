@@ -7,8 +7,11 @@ using UnityEngine.UI;
 public class ARCursor : MonoBehaviour
 {
     public GameObject cursorChildObject;
-    public GameObject objectToPlace;
+    public GameObject objectToPlaceCsardas;
+    public GameObject objectToPlaceHipHop;
+    public GameObject objectToPlaceSamba;
     public List<GameObject> placedObjects;
+    public RectTransform dropDown;
 
     // private Animator anim;
 
@@ -17,6 +20,8 @@ public class ARCursor : MonoBehaviour
     public ARRaycastManager raycastManager;
 
     public bool useCursor = true;
+
+    // private int menuIndex;
 
     
     void Start()
@@ -36,21 +41,43 @@ public class ARCursor : MonoBehaviour
             UpdateCursor();
         }
 
+        TMPro.TMP_Dropdown dd = dropDown.GetComponent<TMPro.TMP_Dropdown>();
+        int menuIndex = dd.value;
+
+
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             anim = GetComponents<Animator>();
 
             if (useCursor)
             {
+                /*
                 foreach (Animator a in anim)
                 {
                     a.speed = 0;
                 }
+                */
 
-                GameObject placed = GameObject.Instantiate(objectToPlace, transform.position, transform.rotation);
-                // placed.GetComponentInChildren<Animator>().speed = 0;
-                // anim = GetComponents<Animator>();
-                placedObjects.Add(placed);
+                if (menuIndex == 0)
+                {
+                    GameObject placed = GameObject.Instantiate(objectToPlaceCsardas, transform.position, transform.rotation);
+                    placedObjects.Add(placed);
+                }
+
+                if (menuIndex == 1)
+                {
+                    GameObject placed = GameObject.Instantiate(objectToPlaceHipHop, transform.position, transform.rotation);
+                    placedObjects.Add(placed);
+                }
+
+                if (menuIndex == 3)
+                {
+                    GameObject placed = GameObject.Instantiate(objectToPlaceSamba, transform.position, transform.rotation);
+                    placedObjects.Add(placed);
+                }
+
+                // GameObject placed = GameObject.Instantiate(objectToPlace, transform.position, transform.rotation);
+                // placedObjects.Add(placed);
 
                 foreach (GameObject go in placedObjects)
                 {
@@ -58,18 +85,6 @@ public class ARCursor : MonoBehaviour
                     a.Rebind();
                     a.Update(0f);
                 }
-
-                /*
-                for (int i = 0; i < placedObjects.Count; i++)
-                {
-                    if (i == placedObjects.Count - 1)
-                    {
-                        GameObject go = placedObjects[i];
-                        GameObject.Instantiate(go, transform.position, transform.rotation);
-                        go.GetComponent<Animator>().StopPlayback();
-                    }
-                }
-                */
 
             }
 
@@ -80,15 +95,33 @@ public class ARCursor : MonoBehaviour
 
                 if (hits.Count > 0)
                 {
+                    /*
                     foreach (Animator a in anim)
                     {
                         a.speed = 0;
                     }
+                    */
 
-                    GameObject placed = GameObject.Instantiate(objectToPlace, hits[0].pose.position, hits[0].pose.rotation);
-                    // placed.GetComponentInChildren<Animator>().speed = 0;
-                    // anim = GetComponents<Animator>();
-                    placedObjects.Add(placed);
+                    if (menuIndex == 0)
+                    {
+                        GameObject placed = GameObject.Instantiate(objectToPlaceCsardas, hits[0].pose.position, hits[0].pose.rotation);
+                        placedObjects.Add(placed);
+                    }
+
+                    if (menuIndex == 1)
+                    {
+                        GameObject placed = GameObject.Instantiate(objectToPlaceHipHop, hits[0].pose.position, hits[0].pose.rotation);
+                        placedObjects.Add(placed);
+                    }
+
+                    if (menuIndex == 3)
+                    {
+                        GameObject placed = GameObject.Instantiate(objectToPlaceSamba, hits[0].pose.position, hits[0].pose.rotation);
+                        placedObjects.Add(placed);
+                    }
+
+                    // GameObject placed = GameObject.Instantiate(objectToPlace, hits[0].pose.position, hits[0].pose.rotation);
+                    // placedObjects.Add(placed);
 
                     foreach (GameObject go in placedObjects)
                     {
@@ -96,18 +129,6 @@ public class ARCursor : MonoBehaviour
                         a.Rebind();
                         a.Update(0f);
                     }
-
-                    /*
-                    for (int i = 0; i < placedObjects.Count; i++)
-                    {
-                        if (i == placedObjects.Count - 1)
-                        {
-                            GameObject go = placedObjects[i];
-                            GameObject.Instantiate(go, transform.position, transform.rotation);
-                            go.GetComponent<Animator>().StopPlayback();
-                        }
-                    }
-                    */
                 }
             }
         }

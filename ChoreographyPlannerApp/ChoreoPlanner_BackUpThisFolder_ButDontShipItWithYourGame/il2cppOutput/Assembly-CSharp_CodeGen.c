@@ -22,18 +22,18 @@ extern void ARCursor_UpdateCursor_mF10A97A53652C882FD9FFEE7DD963F3990861CDA (voi
 extern void ARCursor_Waiter_m7C55C0D9A9022E44B9CA6F40DCBC067B1C36BA84 (void);
 // 0x00000005 System.Void ARCursor::.ctor()
 extern void ARCursor__ctor_m137F0AE7E4CBAB2E1D72B1ED04AEC5E1315980EB (void);
-// 0x00000006 System.Void ARCursor/<Waiter>d__9::.ctor(System.Int32)
-extern void U3CWaiterU3Ed__9__ctor_m5A92A6E1B7487A102967C75CCDF924F69E162100 (void);
-// 0x00000007 System.Void ARCursor/<Waiter>d__9::System.IDisposable.Dispose()
-extern void U3CWaiterU3Ed__9_System_IDisposable_Dispose_m012F3B0E8CB62D13D2B8BC4C856F28B1DB8954A0 (void);
-// 0x00000008 System.Boolean ARCursor/<Waiter>d__9::MoveNext()
-extern void U3CWaiterU3Ed__9_MoveNext_m09726C267D8B897948B418EEFDB6B2246527E669 (void);
-// 0x00000009 System.Object ARCursor/<Waiter>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CWaiterU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8D4A9D376C724D093DBC505D842D88935BAE18F1 (void);
-// 0x0000000A System.Void ARCursor/<Waiter>d__9::System.Collections.IEnumerator.Reset()
-extern void U3CWaiterU3Ed__9_System_Collections_IEnumerator_Reset_m2F7992C05F85AFC65373541E2EDBE9E095893A3A (void);
-// 0x0000000B System.Object ARCursor/<Waiter>d__9::System.Collections.IEnumerator.get_Current()
-extern void U3CWaiterU3Ed__9_System_Collections_IEnumerator_get_Current_mDAE4C5A4B3F9B0BC55757BAFA6CE5C7238C8E188 (void);
+// 0x00000006 System.Void ARCursor/<Waiter>d__12::.ctor(System.Int32)
+extern void U3CWaiterU3Ed__12__ctor_mB5AFB2A88DE976DF4305977A5303E39329BEA7A2 (void);
+// 0x00000007 System.Void ARCursor/<Waiter>d__12::System.IDisposable.Dispose()
+extern void U3CWaiterU3Ed__12_System_IDisposable_Dispose_m96513E3FD9FD5B85FDBDF133A799B93A408FB662 (void);
+// 0x00000008 System.Boolean ARCursor/<Waiter>d__12::MoveNext()
+extern void U3CWaiterU3Ed__12_MoveNext_mCAED174775BD84F4A0A240B01FB47F4F40DC76DA (void);
+// 0x00000009 System.Object ARCursor/<Waiter>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CWaiterU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0EB517D7B6B73E61C148887F74AEC8DDE667B7A1 (void);
+// 0x0000000A System.Void ARCursor/<Waiter>d__12::System.Collections.IEnumerator.Reset()
+extern void U3CWaiterU3Ed__12_System_Collections_IEnumerator_Reset_mA00C116E735295AC2D892922F3F2E73BD105E853 (void);
+// 0x0000000B System.Object ARCursor/<Waiter>d__12::System.Collections.IEnumerator.get_Current()
+extern void U3CWaiterU3Ed__12_System_Collections_IEnumerator_get_Current_m33DBC311F9DDCC6D0F93DFE53E28D4C6CED9377F (void);
 // 0x0000000C UnityEngine.GameObject AnchorCreator::get_AnchorPrefab()
 extern void AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A (void);
 // 0x0000000D System.Void AnchorCreator::set_AnchorPrefab(UnityEngine.GameObject)
@@ -77,12 +77,12 @@ static Il2CppMethodPointer s_methodPointers[29] =
 	ARCursor_UpdateCursor_mF10A97A53652C882FD9FFEE7DD963F3990861CDA,
 	ARCursor_Waiter_m7C55C0D9A9022E44B9CA6F40DCBC067B1C36BA84,
 	ARCursor__ctor_m137F0AE7E4CBAB2E1D72B1ED04AEC5E1315980EB,
-	U3CWaiterU3Ed__9__ctor_m5A92A6E1B7487A102967C75CCDF924F69E162100,
-	U3CWaiterU3Ed__9_System_IDisposable_Dispose_m012F3B0E8CB62D13D2B8BC4C856F28B1DB8954A0,
-	U3CWaiterU3Ed__9_MoveNext_m09726C267D8B897948B418EEFDB6B2246527E669,
-	U3CWaiterU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8D4A9D376C724D093DBC505D842D88935BAE18F1,
-	U3CWaiterU3Ed__9_System_Collections_IEnumerator_Reset_m2F7992C05F85AFC65373541E2EDBE9E095893A3A,
-	U3CWaiterU3Ed__9_System_Collections_IEnumerator_get_Current_mDAE4C5A4B3F9B0BC55757BAFA6CE5C7238C8E188,
+	U3CWaiterU3Ed__12__ctor_mB5AFB2A88DE976DF4305977A5303E39329BEA7A2,
+	U3CWaiterU3Ed__12_System_IDisposable_Dispose_m96513E3FD9FD5B85FDBDF133A799B93A408FB662,
+	U3CWaiterU3Ed__12_MoveNext_mCAED174775BD84F4A0A240B01FB47F4F40DC76DA,
+	U3CWaiterU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0EB517D7B6B73E61C148887F74AEC8DDE667B7A1,
+	U3CWaiterU3Ed__12_System_Collections_IEnumerator_Reset_mA00C116E735295AC2D892922F3F2E73BD105E853,
+	U3CWaiterU3Ed__12_System_Collections_IEnumerator_get_Current_m33DBC311F9DDCC6D0F93DFE53E28D4C6CED9377F,
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
 	AnchorCreator_RemoveAllAnchors_m6BA302DD9EECA47969FD3F6E5397441DCB09ED21,

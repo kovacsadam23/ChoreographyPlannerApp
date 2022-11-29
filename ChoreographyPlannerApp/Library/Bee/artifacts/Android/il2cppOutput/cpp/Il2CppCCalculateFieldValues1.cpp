@@ -3840,12 +3840,12 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
 };
 
-// ARCursor/<Waiter>d__9
-struct U3CWaiterU3Ed__9_tDFAD593F49103515273565C6057C1FC6BC8637F1  : public RuntimeObject
+// ARCursor/<Waiter>d__12
+struct U3CWaiterU3Ed__12_t94B9B0129F20E2EA6C5B29E7D635E2D5B947B8BB  : public RuntimeObject
 {
-	// System.Int32 ARCursor/<Waiter>d__9::<>1__state
+	// System.Int32 ARCursor/<Waiter>d__12::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object ARCursor/<Waiter>d__9::<>2__current
+	// System.Object ARCursor/<Waiter>d__12::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
 };
 
@@ -19568,16 +19568,22 @@ struct ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C  : public MonoBehaviou
 {
 	// UnityEngine.GameObject ARCursor::cursorChildObject
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cursorChildObject_4;
-	// UnityEngine.GameObject ARCursor::objectToPlace
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___objectToPlace_5;
+	// UnityEngine.GameObject ARCursor::objectToPlaceCsardas
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___objectToPlaceCsardas_5;
+	// UnityEngine.GameObject ARCursor::objectToPlaceHipHop
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___objectToPlaceHipHop_6;
+	// UnityEngine.GameObject ARCursor::objectToPlaceSamba
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___objectToPlaceSamba_7;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> ARCursor::placedObjects
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___placedObjects_6;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___placedObjects_8;
+	// UnityEngine.RectTransform ARCursor::dropDown
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___dropDown_9;
 	// UnityEngine.Animator[] ARCursor::anim
-	AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* ___anim_7;
+	AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* ___anim_10;
 	// UnityEngine.XR.ARFoundation.ARRaycastManager ARCursor::raycastManager
-	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___raycastManager_8;
+	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___raycastManager_11;
 	// System.Boolean ARCursor::useCursor
-	bool ___useCursor_9;
+	bool ___useCursor_12;
 };
 
 // UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer
@@ -25230,16 +25236,16 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5008[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5009[4] = 
 {
 	static_cast<int32_t>(offsetof(NativeInputSystem_tCFE5554EBC0D3EE1DAD80FC55CE0DE38A3DDC5EE_StaticFields, ___onUpdate_0)),static_cast<int32_t>(offsetof(NativeInputSystem_tCFE5554EBC0D3EE1DAD80FC55CE0DE38A3DDC5EE_StaticFields, ___onBeforeUpdate_1)),static_cast<int32_t>(offsetof(NativeInputSystem_tCFE5554EBC0D3EE1DAD80FC55CE0DE38A3DDC5EE_StaticFields, ___onShouldRunUpdate_2)),static_cast<int32_t>(offsetof(NativeInputSystem_tCFE5554EBC0D3EE1DAD80FC55CE0DE38A3DDC5EE_StaticFields, ___s_OnDeviceDiscoveredCallback_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5013[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5011[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CWaiterU3Ed__9_tDFAD593F49103515273565C6057C1FC6BC8637F1, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CWaiterU3Ed__9_tDFAD593F49103515273565C6057C1FC6BC8637F1, ___U3CU3E2__current_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5014[6] = 
+	static_cast<int32_t>(offsetof(U3CWaiterU3Ed__12_t94B9B0129F20E2EA6C5B29E7D635E2D5B947B8BB, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CWaiterU3Ed__12_t94B9B0129F20E2EA6C5B29E7D635E2D5B947B8BB, ___U3CU3E2__current_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5012[9] = 
 {
-	static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___cursorChildObject_4)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___objectToPlace_5)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___placedObjects_6)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___anim_7)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___raycastManager_8)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___useCursor_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5015[6] = 
+	static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___cursorChildObject_4)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___objectToPlaceCsardas_5)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___objectToPlaceHipHop_6)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___objectToPlaceSamba_7)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___placedObjects_8)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___dropDown_9)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___anim_10)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___raycastManager_11)),static_cast<int32_t>(offsetof(ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C, ___useCursor_12)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5013[6] = 
 {
 	static_cast<int32_t>(offsetof(AnchorCreator_tBBEE94135B5183E0A8EE52FB00513F69C7C980ED, ___m_AnchorPrefab_4)),static_cast<int32_t>(offsetof(AnchorCreator_tBBEE94135B5183E0A8EE52FB00513F69C7C980ED_StaticFields, ___s_Hits_5)),static_cast<int32_t>(offsetof(AnchorCreator_tBBEE94135B5183E0A8EE52FB00513F69C7C980ED, ___m_AnchorPoints_6)),static_cast<int32_t>(offsetof(AnchorCreator_tBBEE94135B5183E0A8EE52FB00513F69C7C980ED, ___m_RaycastManager_7)),static_cast<int32_t>(offsetof(AnchorCreator_tBBEE94135B5183E0A8EE52FB00513F69C7C980ED, ___m_AnchorManager_8)),static_cast<int32_t>(offsetof(AnchorCreator_tBBEE94135B5183E0A8EE52FB00513F69C7C980ED, ___m_PlaneManager_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5016[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5014[6] = 
 {
 	static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_FeatheringWidth_4)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955_StaticFields, ___s_FeatheringUVs_5)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955_StaticFields, ___s_Vertices_6)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_PlaneMeshVisualizer_7)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_Plane_8)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_FeatheredPlaneMaterial_9)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5022[1] = 

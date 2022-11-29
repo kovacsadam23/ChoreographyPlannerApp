@@ -798,10 +798,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_Update();
 		Register_UnityEngine_Animator_Update();
 
-		//System.Void UnityEngine.Animator::set_speed(System.Single)
-		void Register_UnityEngine_Animator_set_speed();
-		Register_UnityEngine_Animator_set_speed();
-
 	//End Registrations for type : UnityEngine.Animator
 
 	//Start Registrations for type : UnityEngine.Application
