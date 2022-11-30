@@ -70,7 +70,7 @@ public class ARCursor : MonoBehaviour
                     placedObjects.Add(placed);
                 }
 
-                if (menuIndex == 3)
+                if (menuIndex == 2)
                 {
                     GameObject placed = GameObject.Instantiate(objectToPlaceSamba, transform.position, transform.rotation);
                     placedObjects.Add(placed);
@@ -114,7 +114,7 @@ public class ARCursor : MonoBehaviour
                         placedObjects.Add(placed);
                     }
 
-                    if (menuIndex == 3)
+                    if (menuIndex == 2)
                     {
                         GameObject placed = GameObject.Instantiate(objectToPlaceSamba, hits[0].pose.position, hits[0].pose.rotation);
                         placedObjects.Add(placed);

@@ -174,8 +174,6 @@ UnityEngine.AndroidJNI::SetStaticStringField
 UnityEngine.AndroidJNI::SetStringField
 UnityEngine.AndroidJNIHelper::get_debug
 UnityEngine.AndroidJNIHelper::set_debug
-UnityEngine.Animation::GetStateCount
-UnityEngine.Animation::GetStateAtIndex
 UnityEngine.AnimationCurve::Internal_Equals
 UnityEngine.AnimationCurve::Internal_Create
 UnityEngine.AnimationCurve::Internal_Destroy

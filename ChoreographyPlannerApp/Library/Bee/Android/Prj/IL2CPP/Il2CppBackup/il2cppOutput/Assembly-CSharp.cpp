@@ -2222,9 +2222,9 @@ IL_0085:
 
 IL_00b7:
 	{
-		// if (menuIndex == 3)
+		// if (menuIndex == 2)
 		int32_t L_27 = V_0;
-		if ((!(((uint32_t)L_27) == ((uint32_t)3))))
+		if ((!(((uint32_t)L_27) == ((uint32_t)2))))
 		{
 			goto IL_00eb;
 		}
@@ -2423,9 +2423,9 @@ IL_01ad:
 
 IL_01f7:
 	{
-		// if (menuIndex == 3)
+		// if (menuIndex == 2)
 		int32_t L_76 = V_0;
-		if ((!(((uint32_t)L_76) == ((uint32_t)3))))
+		if ((!(((uint32_t)L_76) == ((uint32_t)2))))
 		{
 			goto IL_0241;
 		}
