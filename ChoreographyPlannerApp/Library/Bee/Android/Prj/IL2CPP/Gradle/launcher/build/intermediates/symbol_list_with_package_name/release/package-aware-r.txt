@@ -6,8 +6,6 @@ id unitySurfaceView
 layout __arcore_education
 mipmap app_icon
 mipmap app_icon_round
-mipmap ic_launcher_background
-mipmap ic_launcher_foreground
 raw keep_arcore
 string FreeformWindowOrientation_landscape
 string FreeformWindowOrientation_portrait

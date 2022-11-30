@@ -43,7 +43,7 @@ ADDED from C:\Users\lenovo\Documents\GitHub\ChoreographyPlannerApp\ChoreographyP
 	android:anyDensity
 		ADDED from C:\Users\lenovo\Documents\GitHub\ChoreographyPlannerApp\ChoreographyPlannerApp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
 application
-ADDED from C:\Users\lenovo\Documents\GitHub\ChoreographyPlannerApp\ChoreographyPlannerApp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+ADDED from C:\Users\lenovo\Documents\GitHub\ChoreographyPlannerApp\ChoreographyPlannerApp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-126
 MERGED from [:unityLibrary] C:\Users\lenovo\Documents\GitHub\ChoreographyPlannerApp\ChoreographyPlannerApp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-79:19
 MERGED from [:unityLibrary] C:\Users\lenovo\Documents\GitHub\ChoreographyPlannerApp\ChoreographyPlannerApp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-79:19
 MERGED from [:arcore_client:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:33:5-47:19
@@ -52,6 +52,8 @@ MERGED from [:arcore_client:] C:\Users\lenovo\.gradle\caches\transforms-2\files-
 		ADDED from [:unityLibrary] C:\Users\lenovo\Documents\GitHub\ChoreographyPlannerApp\ChoreographyPlannerApp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:18-50
 	android:label
 		ADDED from C:\Users\lenovo\Documents\GitHub\ChoreographyPlannerApp\ChoreographyPlannerApp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+	android:roundIcon
+		ADDED from C:\Users\lenovo\Documents\GitHub\ChoreographyPlannerApp\ChoreographyPlannerApp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:81-123
 	android:icon
 		ADDED from C:\Users\lenovo\Documents\GitHub\ChoreographyPlannerApp\ChoreographyPlannerApp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
 uses-sdk
