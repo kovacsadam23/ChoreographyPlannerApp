@@ -3,3 +3,5 @@ start/stop gomb
 táncok szerinti színek
 
 videó -> több táncos látszódjon
+
+Transform.LookAt -> karakter velem szemben
