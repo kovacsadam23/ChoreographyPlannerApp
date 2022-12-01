@@ -1,0 +1,5 @@
+gordulo feljebb,
+start/stop gomb
+táncok szerinti színek
+
+videó -> több táncos látszódjon
