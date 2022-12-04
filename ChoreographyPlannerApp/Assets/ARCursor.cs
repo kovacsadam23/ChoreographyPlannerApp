@@ -12,10 +12,13 @@ public class ARCursor : MonoBehaviour
     public GameObject objectToPlaceSamba;
     public List<GameObject> placedObjects;
     public RectTransform dropDown;
+    public RectTransform startStop;
 
     // private Animator anim;
 
     private Animator[] anim;
+
+    private Toggle startStopToggle;
 
     public ARRaycastManager raycastManager;
 
@@ -31,6 +34,8 @@ public class ARCursor : MonoBehaviour
 
         anim = GetComponents<Animator>();
 
+        startStopToggle = startStop.GetComponent<Toggle>();
+
     }
 
     
@@ -39,6 +44,27 @@ public class ARCursor : MonoBehaviour
         if (useCursor)
         {
             UpdateCursor();
+        }
+
+        Debug.Log(startStopToggle.isOn);
+
+        if (!startStopToggle.isOn && placedObjects.Count > 0)
+        {
+            foreach (GameObject go in placedObjects)
+            {
+                Animator a = go.GetComponentInChildren<Animator>();
+                a.enabled = false;
+            }
+        }
+        if (startStopToggle.isOn && placedObjects.Count > 0)
+        {
+            foreach (GameObject go in placedObjects)
+            {
+                Animator a = go.GetComponentInChildren<Animator>();
+                a.enabled = true;
+                a.Rebind();
+                a.Update(0f);
+            }
         }
 
         TMPro.TMP_Dropdown dd = dropDown.GetComponent<TMPro.TMP_Dropdown>();
@@ -51,29 +77,26 @@ public class ARCursor : MonoBehaviour
 
             if (useCursor)
             {
-                /*
-                foreach (Animator a in anim)
-                {
-                    a.speed = 0;
-                }
-                */
 
                 if (menuIndex == 0)
                 {
                     GameObject placed = GameObject.Instantiate(objectToPlaceCsardas, transform.position, transform.rotation);
                     placedObjects.Add(placed);
+                    // placed.GetComponent<Renderer>().material.color = Color.red;
                 }
 
                 if (menuIndex == 1)
                 {
                     GameObject placed = GameObject.Instantiate(objectToPlaceHipHop, transform.position, transform.rotation);
                     placedObjects.Add(placed);
+                    // placed.GetComponent<Renderer>().material.color = Color.blue;
                 }
 
                 if (menuIndex == 2)
                 {
                     GameObject placed = GameObject.Instantiate(objectToPlaceSamba, transform.position, transform.rotation);
                     placedObjects.Add(placed);
+                    // placed.GetComponent<Renderer>().material.color = Color.green;
                 }
 
                 // GameObject placed = GameObject.Instantiate(objectToPlace, transform.position, transform.rotation);
@@ -82,8 +105,14 @@ public class ARCursor : MonoBehaviour
                 foreach (GameObject go in placedObjects)
                 {
                     Animator a = go.GetComponentInChildren<Animator>();
+                    a.enabled = true;
                     a.Rebind();
                     a.Update(0f);
+
+                    if (!startStopToggle.isOn)
+                    {
+                        a.enabled = false;
+                    }
                 }
 
             }
@@ -106,18 +135,21 @@ public class ARCursor : MonoBehaviour
                     {
                         GameObject placed = GameObject.Instantiate(objectToPlaceCsardas, hits[0].pose.position, hits[0].pose.rotation);
                         placedObjects.Add(placed);
+                        // placed.GetComponent<Renderer>().material.color = Color.red;
                     }
 
                     if (menuIndex == 1)
                     {
                         GameObject placed = GameObject.Instantiate(objectToPlaceHipHop, hits[0].pose.position, hits[0].pose.rotation);
                         placedObjects.Add(placed);
+                        // placed.GetComponent<Renderer>().material.color = Color.blue;
                     }
 
                     if (menuIndex == 2)
                     {
                         GameObject placed = GameObject.Instantiate(objectToPlaceSamba, hits[0].pose.position, hits[0].pose.rotation);
                         placedObjects.Add(placed);
+                        // placed.GetComponent<Renderer>().material.color = Color.green;
                     }
 
                     // GameObject placed = GameObject.Instantiate(objectToPlace, hits[0].pose.position, hits[0].pose.rotation);
@@ -126,8 +158,14 @@ public class ARCursor : MonoBehaviour
                     foreach (GameObject go in placedObjects)
                     {
                         Animator a = go.GetComponentInChildren<Animator>();
+                        a.enabled = true;
                         a.Rebind();
                         a.Update(0f);
+
+                        if (!startStopToggle.isOn)
+                        {
+                            a.enabled = false;
+                        }
                     }
                 }
             }

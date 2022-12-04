@@ -29,8 +29,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    Unity.XR.ARKit.Editor.dll:
-    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -58,8 +56,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -77,6 +77,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Mask
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     UnityEngine.XR.MagicLeap.dll:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings
@@ -112,6 +113,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
@@ -158,59 +160,61 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1672}
+      Script: {instanceID: 1678}
     - Class: 114
-      Script: {instanceID: 1710}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 1820}
+      Script: {instanceID: 1826}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 3130}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3412}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3798}
+      Script: {instanceID: 3804}
     - Class: 114
-      Script: {instanceID: 4042}
+      Script: {instanceID: 4048}
     - Class: 114
-      Script: {instanceID: 4564}
+      Script: {instanceID: 4570}
     - Class: 114
-      Script: {instanceID: 4650}
+      Script: {instanceID: 4656}
     - Class: 114
-      Script: {instanceID: 4888}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 5230}
+      Script: {instanceID: 5236}
     - Class: 114
-      Script: {instanceID: 5600}
+      Script: {instanceID: 5606}
     - Class: 114
-      Script: {instanceID: 5856}
+      Script: {instanceID: 5862}
     - Class: 114
-      Script: {instanceID: 6422}
+      Script: {instanceID: 6428}
     - Class: 114
-      Script: {instanceID: 6616}
+      Script: {instanceID: 6622}
     - Class: 114
-      Script: {instanceID: 7418}
+      Script: {instanceID: 6990}
     - Class: 114
-      Script: {instanceID: 7458}
+      Script: {instanceID: 7424}
     - Class: 114
-      Script: {instanceID: 7616}
+      Script: {instanceID: 7464}
     - Class: 114
-      Script: {instanceID: 8082}
+      Script: {instanceID: 7622}
     - Class: 114
-      Script: {instanceID: 8098}
+      Script: {instanceID: 8088}
     - Class: 114
-      Script: {instanceID: 8756}
+      Script: {instanceID: 8104}
     - Class: 114
-      Script: {instanceID: 9578}
+      Script: {instanceID: 8762}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9584}
     - Class: 114
-      Script: {instanceID: 10154}
+      Script: {instanceID: 9666}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10160}
+    - Class: 114
+      Script: {instanceID: 10340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -912,7 +916,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 08b470051a6fa90d5d9e8114686ea129
+      Hash: 275a22b40135c2d846b3bbc40a3d9192
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ARCursor
