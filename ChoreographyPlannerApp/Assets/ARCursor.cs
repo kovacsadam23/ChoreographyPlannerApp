@@ -25,7 +25,7 @@ public class ARCursor : MonoBehaviour
 
     public bool useCursor = true;
 
-    int clickCount = 1;
+    int clickCount = 0;
 
     // private int menuIndex;
 

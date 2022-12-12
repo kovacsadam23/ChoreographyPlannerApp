@@ -2843,8 +2843,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCursor__ctor_m137F0AE7E4CBAB2E1D72B1ED
 	{
 		// public bool useCursor = true;
 		__this->___useCursor_15 = (bool)1;
-		// int clickCount = 1;
-		__this->___clickCount_16 = 1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
