@@ -916,7 +916,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 275a22b40135c2d846b3bbc40a3d9192
+      Hash: 7de9e80a4396e347595c21686c724d73
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ARCursor

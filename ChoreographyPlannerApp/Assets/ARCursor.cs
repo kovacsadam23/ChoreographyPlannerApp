@@ -13,6 +13,7 @@ public class ARCursor : MonoBehaviour
     public List<GameObject> placedObjects;
     public RectTransform dropDown;
     public RectTransform startStop;
+    public Button startStopButton;
 
     // private Animator anim;
 
@@ -23,6 +24,8 @@ public class ARCursor : MonoBehaviour
     public ARRaycastManager raycastManager;
 
     public bool useCursor = true;
+
+    int clickCount = 1;
 
     // private int menuIndex;
 
@@ -36,6 +39,9 @@ public class ARCursor : MonoBehaviour
 
         startStopToggle = startStop.GetComponent<Toggle>();
 
+        startStopButton = startStopButton.GetComponent<Button>();
+        startStopButton.onClick.AddListener(this.StartStopOnClick);
+
     }
 
     
@@ -46,6 +52,7 @@ public class ARCursor : MonoBehaviour
             UpdateCursor();
         }
 
+        /*
         Debug.Log(startStopToggle.isOn);
 
         if (!startStopToggle.isOn && placedObjects.Count > 0)
@@ -66,6 +73,7 @@ public class ARCursor : MonoBehaviour
                 a.Update(0f);
             }
         }
+        */
 
         TMPro.TMP_Dropdown dd = dropDown.GetComponent<TMPro.TMP_Dropdown>();
         int menuIndex = dd.value;
@@ -105,14 +113,16 @@ public class ARCursor : MonoBehaviour
                 foreach (GameObject go in placedObjects)
                 {
                     Animator a = go.GetComponentInChildren<Animator>();
-                    a.enabled = true;
+                    // a.enabled = true;
                     a.Rebind();
                     a.Update(0f);
 
+                    /*
                     if (!startStopToggle.isOn)
                     {
                         a.enabled = false;
                     }
+                    */
                 }
 
             }
@@ -124,12 +134,12 @@ public class ARCursor : MonoBehaviour
 
                 if (hits.Count > 0)
                 {
-                    /*
+                    
                     foreach (Animator a in anim)
                     {
                         a.speed = 0;
                     }
-                    */
+                    
 
                     if (menuIndex == 0)
                     {
@@ -158,14 +168,16 @@ public class ARCursor : MonoBehaviour
                     foreach (GameObject go in placedObjects)
                     {
                         Animator a = go.GetComponentInChildren<Animator>();
-                        a.enabled = true;
+                        // a.enabled = true;
                         a.Rebind();
                         a.Update(0f);
 
+                        /*
                         if (!startStopToggle.isOn)
                         {
                             a.enabled = false;
                         }
+                        */
                     }
                 }
             }
@@ -185,9 +197,34 @@ public class ARCursor : MonoBehaviour
         }
     }
 
-
-    IEnumerator Waiter()
+    void StartStopOnClick()
     {
-        yield return new WaitForSeconds(5);
+        Debug.Log("Click");
+
+        if (clickCount % 2 == 0)
+        {
+            foreach (GameObject go in placedObjects)
+            {
+                Animator a = go.GetComponentInChildren<Animator>();
+
+                a.enabled = false;
+            }
+        }
+
+        else
+        {
+            foreach (GameObject go in placedObjects)
+            {
+                Animator a = go.GetComponentInChildren<Animator>();
+                a.enabled = true;
+
+                a.Rebind();
+                a.Update(0f);
+            }
+        }
+
+        clickCount++;
+
+        Debug.Log(clickCount);
     }
 }

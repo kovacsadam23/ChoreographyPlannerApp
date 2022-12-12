@@ -1,35 +1,47 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class onStartStopClick : MonoBehaviour
 {
+    int clickCount = 1;
+    GameObject[] gameObjects;
 
     private void Start()
     {
-        Animator[] anim = GetComponents<Animator>();
-        
-        foreach (Animator a in anim)
-        {
-            a.StopPlayback();
-        }
-
-        foreach (Animator a in anim)
-        {
-            a.StartPlayback();
-        }
+        gameObjects = GetComponents<GameObject>();
+        Debug.Log(clickCount);
 
     }
 
-    /*
+    
     void Update()
     {
-        var allAnimators = FindObjectOfType<Animation>();
-
-        foreach (var animator in allAnimators)
+        if (clickCount % 2 == 0)
         {
-            // animator.Stop();
+            foreach (GameObject go in gameObjects)
+            {
+                Animator a = go.GetComponentInChildren<Animator>();
+
+                a.enabled = false;
+            }
         }
+
+        else
+        {
+            foreach (GameObject go in gameObjects)
+            {
+                Animator a = go.GetComponentInChildren<Animator>();
+                a.enabled = true;
+
+                a.Rebind();
+                a.Update(0f);
+            }
+        }
+
+        clickCount++;
+        Debug.Log(clickCount.ToString());
     }
-    */
+    
 }
