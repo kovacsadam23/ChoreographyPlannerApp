@@ -10,3 +10,5 @@ Subject: Training Project Laboratory
 The most important files are in [ChoreographyPlannerApp/Assets](https://github.com/kovacsadam23/ChoreographyPlannerApp/tree/main/ChoreographyPlannerApp/Assets)
 
 Logic: [ARCursor.cs](https://github.com/kovacsadam23/ChoreographyPlannerApp/blob/main/ChoreographyPlannerApp/Assets/ARCursor.cs)
+
+Engine: Unity
