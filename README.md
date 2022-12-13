@@ -1,7 +1,8 @@
 # ChoreographyPlannerApp
-AR app to assist in the planning of dance choreographies. You can place three different dancing objects on a detected plane (Hungarian 'csardas', Hip-Hop, Samba).
+AR app to assist in the planning of dance choreographies. You can place three different dancing objects on a detected plane (Hungarian 'csardas', Hip-Hop, Samba). <br><br>
 
 ⚠ This is a university project, thus the app might be incomplete.
+
 Subject: Training Project Laboratory 
 
 <br><br>
