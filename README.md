@@ -11,4 +11,6 @@ The most important files are in [ChoreographyPlannerApp/Assets](https://github.c
 
 Logic: [ARCursor.cs](https://github.com/kovacsadam23/ChoreographyPlannerApp/blob/main/ChoreographyPlannerApp/Assets/ARCursor.cs)
 
+Latest APK: [Download](https://drive.google.com/drive/folders/1nhPkG8MHW4FkHFUkGdG9IvgcNMThIKx5?usp=share_link)
+
 Engine: Unity
