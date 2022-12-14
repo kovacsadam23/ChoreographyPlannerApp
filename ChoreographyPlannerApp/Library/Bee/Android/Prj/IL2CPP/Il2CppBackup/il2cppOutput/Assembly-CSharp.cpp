@@ -158,10 +158,6 @@ struct String_t;
 struct TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504;
 // TMPro.TMP_Text
 struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9;
-// UnityEngine.UI.Toggle
-struct Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F;
-// UnityEngine.UI.ToggleGroup
-struct ToggleGroup_tF2E6FE7D4B17BDBF82462715CFB57C4FDE0A2A2C;
 // UnityEngine.Transform
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 // UnityEngine.Events.UnityAction
@@ -190,8 +186,6 @@ struct DropdownEvent_tFD4609E80240BC887A6D31F9F3C252A8A6843E91;
 struct OptionData_tFDFBCB4A5FB860E95AE46FDAC112DB4140A8525E;
 // TMPro.TMP_Dropdown/OptionDataList
 struct OptionDataList_tF66EA4801BFA499F010E6EFF89ED760BF4F0BEE1;
-// UnityEngine.UI.Toggle/ToggleEvent
-struct ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02;
 
 IL2CPP_EXTERN_C RuntimeClass* ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t762BEDF03B3FAD9E52246AF6B4291030B8085074_il2cpp_TypeInfo_var;
@@ -217,7 +211,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisARRaycastManager_
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisTMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504_mA71EFA5792332E2F54A044CF9EBFE77C01F55FC8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisToggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F_mCFD123E76114133A77ECEF96A5474F07B97F5CEE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponents_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m2B62457DDBC911E18298B34E9CF7CEB6DF31D638_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponents_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m2A65508ED13AA2DED67F5E9C588D67FE2494C9E3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var;
@@ -1189,16 +1182,14 @@ struct ARCursor_t8AAA875642042CDB3704727B8397F2676759BF0C  : public MonoBehaviou
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___startStop_10;
 	// UnityEngine.UI.Button ARCursor::startStopButton
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___startStopButton_11;
-	// UnityEngine.Animator[] ARCursor::anim
-	AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* ___anim_12;
-	// UnityEngine.UI.Toggle ARCursor::startStopToggle
-	Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ___startStopToggle_13;
 	// UnityEngine.XR.ARFoundation.ARRaycastManager ARCursor::raycastManager
-	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___raycastManager_14;
+	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___raycastManager_12;
 	// System.Boolean ARCursor::useCursor
-	bool ___useCursor_15;
+	bool ___useCursor_13;
+	// UnityEngine.Animator[] ARCursor::anim
+	AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* ___anim_14;
 	// System.Int32 ARCursor::clickCount
-	int32_t ___clickCount_16;
+	int32_t ___clickCount_15;
 };
 
 // ARFeatheredPlaneMeshVisualizer
@@ -1521,21 +1512,6 @@ struct TMP_Dropdown_t73B37BFDA0D005451C7B750938AFB1748E5EA504_StaticFields
 	// TMPro.TMP_Dropdown/OptionData TMPro.TMP_Dropdown::s_NoOptionData
 	OptionData_tFDFBCB4A5FB860E95AE46FDAC112DB4140A8525E* ___s_NoOptionData_36;
 };
-
-// UnityEngine.UI.Toggle
-struct Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
-{
-	// UnityEngine.UI.Toggle/ToggleTransition UnityEngine.UI.Toggle::toggleTransition
-	int32_t ___toggleTransition_20;
-	// UnityEngine.UI.Graphic UnityEngine.UI.Toggle::graphic
-	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___graphic_21;
-	// UnityEngine.UI.ToggleGroup UnityEngine.UI.Toggle::m_Group
-	ToggleGroup_tF2E6FE7D4B17BDBF82462715CFB57C4FDE0A2A2C* ___m_Group_22;
-	// UnityEngine.UI.Toggle/ToggleEvent UnityEngine.UI.Toggle::onValueChanged
-	ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* ___onValueChanged_23;
-	// System.Boolean UnityEngine.UI.Toggle::m_IsOn
-	bool ___m_IsOn_24;
-};
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -1732,11 +1708,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B
 inline AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* Component_GetComponents_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m2B62457DDBC911E18298B34E9CF7CEB6DF31D638 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponents_TisRuntimeObject_m35447B0B07F9C06A1AF846E482EC6FEB09D2436F_gshared)(__this, method);
-}
-// T UnityEngine.Component::GetComponent<UnityEngine.UI.Toggle>()
-inline Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* Component_GetComponent_TisToggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F_mCFD123E76114133A77ECEF96A5474F07B97F5CEE (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
-{
-	return ((  Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
 // T UnityEngine.Component::GetComponent<UnityEngine.UI.Button>()
 inline Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
@@ -2032,7 +2003,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCursor_Start_mF861EF07BBBDEA10481F7F4A
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ARCursor_StartStopOnClick_m61784037E4444F00192C09222BE2C34CE58EAA1D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisToggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F_mCFD123E76114133A77ECEF96A5474F07B97F5CEE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponents_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m2B62457DDBC911E18298B34E9CF7CEB6DF31D638_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
@@ -2040,38 +2010,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCursor_Start_mF861EF07BBBDEA10481F7F4A
 	{
 		// cursorChildObject.SetActive(useCursor);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___cursorChildObject_4;
-		bool L_1 = __this->___useCursor_15;
+		bool L_1 = __this->___useCursor_13;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, L_1, NULL);
 		// anim = GetComponents<Animator>();
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_2;
 		L_2 = Component_GetComponents_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m2B62457DDBC911E18298B34E9CF7CEB6DF31D638(__this, Component_GetComponents_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m2B62457DDBC911E18298B34E9CF7CEB6DF31D638_RuntimeMethod_var);
-		__this->___anim_12 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___anim_12), (void*)L_2);
-		// startStopToggle = startStop.GetComponent<Toggle>();
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___startStop_10;
-		NullCheck(L_3);
-		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_4;
-		L_4 = Component_GetComponent_TisToggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F_mCFD123E76114133A77ECEF96A5474F07B97F5CEE(L_3, Component_GetComponent_TisToggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F_mCFD123E76114133A77ECEF96A5474F07B97F5CEE_RuntimeMethod_var);
-		__this->___startStopToggle_13 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___startStopToggle_13), (void*)L_4);
+		__this->___anim_14 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___anim_14), (void*)L_2);
 		// startStopButton = startStopButton.GetComponent<Button>();
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___startStopButton_11;
+		NullCheck(L_3);
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4;
+		L_4 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_3, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
+		__this->___startStopButton_11 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___startStopButton_11), (void*)L_4);
+		// startStopButton.onClick.AddListener(this.StartStopOnClick);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___startStopButton_11;
 		NullCheck(L_5);
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6;
-		L_6 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_5, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
-		__this->___startStopButton_11 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___startStopButton_11), (void*)L_6);
-		// startStopButton.onClick.AddListener(this.StartStopOnClick);
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___startStopButton_11;
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_6;
+		L_6 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_5, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_7 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		NullCheck(L_7);
-		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_8;
-		L_8 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_7, NULL);
-		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_9 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
-		NullCheck(L_9);
-		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_9, __this, (intptr_t)((void*)ARCursor_StartStopOnClick_m61784037E4444F00192C09222BE2C34CE58EAA1D_RuntimeMethod_var), NULL);
-		NullCheck(L_8);
-		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_8, L_9, NULL);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_7, __this, (intptr_t)((void*)ARCursor_StartStopOnClick_m61784037E4444F00192C09222BE2C34CE58EAA1D_RuntimeMethod_var), NULL);
+		NullCheck(L_6);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_6, L_7, NULL);
 		// }
 		return;
 	}
@@ -2116,7 +2079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCursor_Update_m156A232086B1784C1125D3A
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_12 = NULL;
 	{
 		// if (useCursor)
-		bool L_0 = __this->___useCursor_15;
+		bool L_0 = __this->___useCursor_13;
 		if (!L_0)
 		{
 			goto IL_000e;
@@ -2162,10 +2125,10 @@ IL_000e:
 		// anim = GetComponents<Animator>();
 		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_7;
 		L_7 = Component_GetComponents_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m2B62457DDBC911E18298B34E9CF7CEB6DF31D638(__this, Component_GetComponents_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m2B62457DDBC911E18298B34E9CF7CEB6DF31D638_RuntimeMethod_var);
-		__this->___anim_12 = L_7;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___anim_12), (void*)L_7);
+		__this->___anim_14 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___anim_14), (void*)L_7);
 		// if (useCursor)
-		bool L_8 = __this->___useCursor_15;
+		bool L_8 = __this->___useCursor_13;
 		if (!L_8)
 		{
 			goto IL_0132;
@@ -2340,7 +2303,7 @@ IL_0132:
 		List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9(L_42, List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var);
 		V_6 = L_42;
 		// raycastManager.Raycast(Input.GetTouch(0).position, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
-		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_43 = __this->___raycastManager_14;
+		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_43 = __this->___raycastManager_12;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_44;
 		L_44 = Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1(0, NULL);
 		V_1 = L_44;
@@ -2362,7 +2325,7 @@ IL_0132:
 	}
 	{
 		// foreach (Animator a in anim)
-		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_50 = __this->___anim_12;
+		AnimatorU5BU5D_tC96418EE48F8DA017567CAE0235488C27640E759* L_50 = __this->___anim_14;
 		V_7 = L_50;
 		V_8 = 0;
 		goto IL_0186;
@@ -2617,7 +2580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCursor_UpdateCursor_mF10A97A53652C882F
 		List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9(L_5, List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var);
 		V_1 = L_5;
 		// raycastManager.Raycast(screenPosition, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
-		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_6 = __this->___raycastManager_14;
+		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_6 = __this->___raycastManager_12;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_0;
 		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_8 = V_1;
 		NullCheck(L_6);
@@ -2679,7 +2642,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCursor_StartStopOnClick_m61784037E4444
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1E9AD091F9C98BEFECEB48E77CEB2BDE8ABA369B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47A23BFD06ECFD154AD092ED652B1B4111CD15FC);
 		s_Il2CppMethodInitialized = true;
@@ -2691,7 +2653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCursor_StartStopOnClick_m61784037E4444
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral47A23BFD06ECFD154AD092ED652B1B4111CD15FC, NULL);
 		// if (clickCount % 2 == 0)
-		int32_t L_0 = __this->___clickCount_16;
+		int32_t L_0 = __this->___clickCount_15;
 		if (((int32_t)(L_0%2)))
 		{
 			goto IL_004d;
@@ -2825,14 +2787,8 @@ IL_007e_1:
 IL_0097:
 	{
 		// clickCount++;
-		int32_t L_13 = __this->___clickCount_16;
-		__this->___clickCount_16 = ((int32_t)il2cpp_codegen_add(L_13, 1));
-		// Debug.Log(clickCount);
-		int32_t L_14 = __this->___clickCount_16;
-		int32_t L_15 = L_14;
-		RuntimeObject* L_16 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_15);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_16, NULL);
+		int32_t L_13 = __this->___clickCount_15;
+		__this->___clickCount_15 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 		// }
 		return;
 	}
@@ -2842,7 +2798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCursor__ctor_m137F0AE7E4CBAB2E1D72B1ED
 {
 	{
 		// public bool useCursor = true;
-		__this->___useCursor_15 = (bool)1;
+		__this->___useCursor_13 = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
