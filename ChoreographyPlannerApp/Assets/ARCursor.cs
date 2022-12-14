@@ -22,7 +22,8 @@ public class ARCursor : MonoBehaviour
     public bool useCursor = true;
 
     private Animator[] anim;
-    int clickCount = 0;
+    private int clickCount = 0;
+    
 
     
     void Start()
@@ -33,7 +34,6 @@ public class ARCursor : MonoBehaviour
 
         startStopButton = startStopButton.GetComponent<Button>();
         startStopButton.onClick.AddListener(this.StartStopOnClick);
-
     }
 
     
@@ -56,19 +56,19 @@ public class ARCursor : MonoBehaviour
 
                 if (menuIndex == 0)
                 {
-                    GameObject placed = GameObject.Instantiate(objectToPlaceCsardas, transform.position, transform.rotation);
+                    GameObject placed = GameObject.Instantiate(objectToPlaceCsardas, transform.position, transform.rotation * Quaternion.Euler(0f, 180f, 0f));
                     placedObjects.Add(placed);
                 }
 
                 if (menuIndex == 1)
                 {
-                    GameObject placed = GameObject.Instantiate(objectToPlaceHipHop, transform.position, transform.rotation);
+                    GameObject placed = GameObject.Instantiate(objectToPlaceHipHop, transform.position, transform.rotation * Quaternion.Euler(0f, 180f, 0f));
                     placedObjects.Add(placed);
                 }
 
                 if (menuIndex == 2)
                 {
-                    GameObject placed = GameObject.Instantiate(objectToPlaceSamba, transform.position, transform.rotation);
+                    GameObject placed = GameObject.Instantiate(objectToPlaceSamba, transform.position, transform.rotation * Quaternion.Euler(0f, 180f, 0f));
                     placedObjects.Add(placed);
                 }
 
@@ -99,19 +99,19 @@ public class ARCursor : MonoBehaviour
 
                     if (menuIndex == 0)
                     {
-                        GameObject placed = GameObject.Instantiate(objectToPlaceCsardas, hits[0].pose.position, hits[0].pose.rotation);
+                        GameObject placed = GameObject.Instantiate(objectToPlaceCsardas, hits[0].pose.position, hits[0].pose.rotation * Quaternion.Euler(0f, 180f, 0f));
                         placedObjects.Add(placed);
                     }
 
                     if (menuIndex == 1)
                     {
-                        GameObject placed = GameObject.Instantiate(objectToPlaceHipHop, hits[0].pose.position, hits[0].pose.rotation);
+                        GameObject placed = GameObject.Instantiate(objectToPlaceHipHop, hits[0].pose.position, hits[0].pose.rotation * Quaternion.Euler(0f, 180f, 0f));
                         placedObjects.Add(placed);
                     }
 
                     if (menuIndex == 2)
                     {
-                        GameObject placed = GameObject.Instantiate(objectToPlaceSamba, hits[0].pose.position, hits[0].pose.rotation);
+                        GameObject placed = GameObject.Instantiate(objectToPlaceSamba, hits[0].pose.position, hits[0].pose.rotation * Quaternion.Euler(0f, 180f, 0f));
                         placedObjects.Add(placed);
                     }
 
